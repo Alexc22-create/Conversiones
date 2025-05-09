@@ -1,14 +1,14 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class Conversion{
 
     public static void main(String[] args){
 
-       int numero1 = 3;
-       double numero2 = 3.7;
+       String numero1 = JOptionPane.showInputDialog("Ingresa el numero: ");
+       String numero2 = JOptionPane.showInputDialog("Ingresa el numero: ");
 
-       double resultado = numero1 + numero2;
+        double n1 = Double.parseDouble(numero1);
+        double n2 = Double.parseDouble(numero2);
 
-       System.out.println(resultado);
-
+        JOptionPane.showMessageDialog(null, "Suma "+(n1+n2));
     }
 }
