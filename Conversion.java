@@ -9,6 +9,6 @@ public class Conversion{
         double n1 = Double.parseDouble(numero1);
         double n2 = Double.parseDouble(numero2);
 
-        JOptionPane.showMessageDialog(null, "Suma "+(n1+n2));
+        JOptionPane.showMessageDialog(null, "Suma "+(n1+n2)+"\n Resta"+(n1-n2)+"\n Multiplicacion"+(n1*n2)+"\n Division"+(n1/n2));
     }
 }
